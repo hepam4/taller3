@@ -1,0 +1,21 @@
+[Unit]
+Description=Data Science Salaries Prediction API - MLOps Taller 3
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/taller3/final-mlops
+Environment="PATH=/home/ubuntu/miniconda3/envs/taller3env/bin"
+ExecStart=/home/ubuntu/miniconda3/envs/taller3env/bin/uvicorn main_fastapi:app --host 0.0.0.0 --port 8000
+
+Restart=always
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
