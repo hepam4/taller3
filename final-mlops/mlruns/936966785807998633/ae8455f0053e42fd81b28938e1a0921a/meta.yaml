@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bigdata/jupiter/mlops/mlops/final-mlops/mlruns/936966785807998633/ae8455f0053e42fd81b28938e1a0921a/artifacts
+end_time: 1764209801161
+entry_point_name: ''
+experiment_id: '936966785807998633'
+lifecycle_stage: active
+run_id: ae8455f0053e42fd81b28938e1a0921a
+run_name: linear_regression
+run_uuid: ae8455f0053e42fd81b28938e1a0921a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764209798021
+status: 3
+tags: []
+user_id: bigdata

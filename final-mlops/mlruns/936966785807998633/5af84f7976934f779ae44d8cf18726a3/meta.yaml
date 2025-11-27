@@ -1,0 +1,15 @@
+artifact_uri: file:///home/bigdata/jupiter/mlops/mlops/final-mlops/mlruns/936966785807998633/5af84f7976934f779ae44d8cf18726a3/artifacts
+end_time: 1764211766737
+entry_point_name: ''
+experiment_id: '936966785807998633'
+lifecycle_stage: active
+run_id: 5af84f7976934f779ae44d8cf18726a3
+run_name: xgboost
+run_uuid: 5af84f7976934f779ae44d8cf18726a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1764211764450
+status: 3
+tags: []
+user_id: bigdata
